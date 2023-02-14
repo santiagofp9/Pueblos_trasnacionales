@@ -9,12 +9,19 @@ This concept will render a map of foreign communities in Madrid.
 
 Expected outcome and minimum viable product:
 
--Associates every population point (Municipio) with a given coordinate, matching with Google Maps. -Groups population points (Municipios) into geoeconomic areas inside Madrid. -Returns demographic data and population composition by birthplace. -Has clear documentation on how to insert data to cross-reference it with this database. -Escalates relationships based on coordinates.
+-Associates every population point (Municipio) with a given coordinate, matching with Google Maps. 
+-Groups population points (Municipios) into geoeconomic areas inside Madrid. 
+-Returns demographic data and population composition by birthplace. 
+-Has clear documentation on how to insert data to cross-reference it with this database. 
+-Escalates relationships based on coordinates.
 
 
 Next steps:
 
--Cross-reference the original database with PIB data. -Extends the dataset back to 1985, when the nationality records start. -Show the economic evolution of high-density foreign population centres. -Correlates economic growth with migration.
+-Cross-reference the original database with PIB data. 
+-Extends the dataset back to 1985, when the nationality records start. 
+-Show the economic evolution of high-density foreign population centres. 
+-Correlates economic growth with migration.
 
 
 Escalable outcome:
