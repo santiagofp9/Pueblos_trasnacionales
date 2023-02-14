@@ -31,9 +31,21 @@ Identifying ghetto structures, in the worst-case scenario, could help to exacerb
 Steps:
 
 1. The base source shows the population of every town, by birth country. Instituto de Estadística. Padrón continuo 2021. 350 population points, 208 birthplaces. 2.4MB
+1.1 This base file can already be shaped into a database since it has several layers. Also population percentages will be calculated.
 
 2. The next step will be to enrich the base table with PIB (Producto Interno Bruto). Instituto de Estadística offers data only from 2009 and back. Grouped by agriculture, industry and services.
-
 2.1.A new source will be needed for fine-grained PIB in Comunidad de Madrid, El País and other media that make regular use of this data must research their source.
 
 3. Coordinates indexed in Google Maps will be scrapped for every population point (350).
+3.1 GMaps has a territorial delimitation called 'place' it is better defined object than a coordinate (includes coordinate). Also the zip code must be extracted.
+
+
+BIBLIO:
+
+More than numbers: How migration data can deliver real-life benefits for migrants and governments.
+(International Organization for Migration, Jan 2018)
+https://www.mckinsey.com/industries/public-and-social-sector/our-insights/how-migration-data-can-deliver-real-life-benefits-for-migrants-and-governments
+
+Corridors and characteristics; Effects on GDP, productivity, and employment; Better integration outcomes.
+"People on the move", McKinsey report, 2016, PDF
+'https://www.mckinsey.com/~/media/mckinsey/industries/public%20and%20social%20sector/our%20insights/global%20migrations%20impact%20and%20opportunity/mgi-people-on-the-move-full-report.pdf'
