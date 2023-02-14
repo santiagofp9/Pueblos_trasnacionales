@@ -35,7 +35,7 @@ Identifying ghetto structures, in the worst-case scenario, could help to exacerb
 
 
 
-Steps:
+LOGBOOK:
 
 1. The base source shows the population of every town, by birth country. Instituto de Estadística. Padrón continuo 2021. 350 population points, 208 birthplaces. 2.4MB
 1.1 This base file can already be shaped into a database since it has several layers. Also population percentages will be calculated.
@@ -45,6 +45,8 @@ Steps:
 
 3. Coordinates indexed in Google Maps will be scrapped for every population point (350).
 3.1 GMaps has a territorial delimitation called 'place' it is better defined object than a coordinate (includes coordinate). Also the zip code must be extracted.
+3.2 Places API will be used ofr Gmaps data, it is important to keep it's requests at minimum because it has a freemium config, and the threshold is not very clear.
+3.3 The map will be rendered by Kepler and the polygons need to be found at some Github public repo.
 
 
 BIBLIO:
