@@ -47,6 +47,7 @@ LOGBOOK:
 3.1 GMaps has a territorial delimitation called 'place' it is better defined object than a coordinate (includes coordinate). Also the zip code must be extracted.
 3.2 Places API will be used ofr Gmaps data, it is important to keep it's requests at minimum because it has a freemium config, and the threshold is not very clear.
 3.3 The map will be rendered by Kepler and the polygons need to be found at some Github public repo.
+3.4 Polygons found, every municiple in Spain available. But apparantly it is too much for either my laptop or Jupyter kernel. I'll try to create a subarray of NorthMadrid polygons. 
 
 
 BIBLIO:
